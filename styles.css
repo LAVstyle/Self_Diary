@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(7, 7, 61);
+}
+
+#p_body {
+    color:rgb(255, 255, 255);
+}
+
+#p_2_body {
+    color:rgb(110, 198, 225);
+}
+
+.div-class {
+    background-color: aqua;
+}

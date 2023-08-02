@@ -1,15 +1,13 @@
 body {
     background-color: rgb(7, 7, 61);
-}
-
-#p_body {
-    color:rgb(255, 255, 255);
-}
-
-#p_2_body {
-    color:rgb(110, 198, 225);
+    background-image: url("background-image.jpg")
 }
 
 .div-class {
-    background-color: aqua;
+    background-color: rgb(7, 7, 61);
+    color:rgb(255, 255, 255);
+}
+
+a {
+    color:aqua;
 }

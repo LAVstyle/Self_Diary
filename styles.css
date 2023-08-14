@@ -3,9 +3,17 @@ body {
     background-image: url("background-image.jpg")
 }
 
-.div-class {
+/* .div-class {
     background-color: rgb(7, 7, 61);
     color:rgb(255, 255, 255);
+} */
+
+.btn {
+    color:black;
+}
+
+h1, p{
+    color:aliceblue;
 }
 
 a {

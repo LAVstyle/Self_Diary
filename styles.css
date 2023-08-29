@@ -1,21 +1,15 @@
-body {
-    background-color: rgb(7, 7, 61);
-    background-image: url("background-image.jpg")
+
+.col-sm-5, .col-sm-3, .col-sm-1 {
+    background-color:#CBD4DE;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0C0B15;
+    border-radius: 5px;
+    margin: 1px;
 }
 
-/* .div-class {
-    background-color: rgb(7, 7, 61);
-    color:rgb(255, 255, 255);
-} */
-
-.btn {
-    color:black;
-}
-
-h1, p{
-    color:aliceblue;
-}
-
-a {
-    color:aqua;
+#main {
+    font-size: 30px;
+    font-size: Jua;
+    font-weight: bold;
 }

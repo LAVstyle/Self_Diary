@@ -12,6 +12,17 @@
       name="keywords"
       content="diary, organizer, planner, self-development"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
     <!--Ключевые слова для поисковых роботов-->
     <link rel="shortcut icon" href="diary.png" />
     <!--Добавление логотипа-->
@@ -20,19 +31,39 @@
     <title>SelfDevDiary</title>
   </head>
   <body>
-    <div class="div-class">
-      <h1>Welcome!</h1>
-      <p>This is your own diary</p>
-      <!--<img src="diary.png" alt="No image">-->
-      <input type="number" />
+    <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-sm-5 p-2">
+
+        <table>
+
+          <th>
+            <img src="diary.png" alt="logo" width="50px">
+          </th>
+          <th>
+            <p id="main">Self-Development Diary</p>
+          </th>
+
+        </table>
+
+      </div>
+      <div class="col-sm-3 p-2">
+        <p>Forum</p>
+      </div>
+      <div class="col-sm-3 p-2">
+        <p>FAQ</p>
+      </div>
+      <div class="col-sm-1 p-2">
+        <p>Sign In</p>
+        <p>Sign Up</p>
+      </div>
     </div>
-    <button class="btn"><a href="Goals.html">Goals</a></button>
-    <hr />
+    </div>
+  </body>
     <noscript>Включите JavaScipt в настройках вашего браузера!</noscript>
     <script src="scripts.js"></script>
     <!-- Подлючение javascript-файла-->
   </body>
-  <footer>
-    <a href="https://vk.com/lavstyle25" target="_blank">My VK contact</a>
-  </footer>
+  <footer></footer>
 </html>

@@ -28,42 +28,54 @@
     <!--Добавление логотипа-->
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <!-- Подлючение css-файла-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
     <title>SelfDevDiary</title>
   </head>
   <body>
     <div class="container-fluid">
     <div class="row">
 
-      <div class="col-sm-5 p-2">
+      <div class="col-sm-5">
 
         <table>
-
           <th>
-            <img src="diary.png" alt="logo" width="50px">
+            <img id ="img-logo" src="diary.png" alt="logo" width="40px">
           </th>
           <th>
             <p id="main">Self-Development Diary</p>
           </th>
-
         </table>
 
       </div>
-      <div class="col-sm-3 p-2">
-        <p>Forum</p>
+      <div class="col-sm-3">
+        <a class="menu">Forum</a>
       </div>
-      <div class="col-sm-3 p-2">
-        <p>FAQ</p>
+      <div class="col-sm-3">
+        <a class="menu">FAQ</a>
       </div>
-      <div class="col-sm-1 p-2">
-        <p>Sign In</p>
-        <p>Sign Up</p>
+      <div class="col-sm-1">
+        <ul>
+          <li><a class="menu-s">Sign In</a></li>
+          <li><a class="menu-s">Sign Up</a></li>
+        </ul>
       </div>
     </div>
     </div>
+    <ul>
+      <li><a class="navbar" href="">Profile</a></li>
+      <li><a class="navbar" href="">Spheres</a></li>
+      <li><a class="navbar" href="">Skills</a></li>
+      <li><a class="navbar" href="">Schedule</a></li>
+      <li><a class="navbar" href="">Diary</a></li>
+      <li><a class="navbar" href="">Subscription</a></li>
+      <li><a class="navbar" href="">Support</a></li>
+    </ul>
   </body>
+
     <noscript>Включите JavaScipt в настройках вашего браузера!</noscript>
     <script src="scripts.js"></script>
     <!-- Подлючение javascript-файла-->
   </body>
-  <footer></footer>
 </html>

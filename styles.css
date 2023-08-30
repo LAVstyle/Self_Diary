@@ -1,15 +1,94 @@
-
-.col-sm-5, .col-sm-3, .col-sm-1 {
-    background-color:#CBD4DE;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #0C0B15;
-    border-radius: 5px;
-    margin: 1px;
+.col-sm-5,
+.col-sm-3,
+.col-sm-1 {
+  background-color: #cbd4de;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #0c0b15;
+  border-radius: 5px;
 }
 
 #main {
-    font-size: 30px;
-    font-size: Jua;
-    font-weight: bold;
+  font-size: 40px;
+  font-family: Lilita One;
+  font-weight: bold;
+  color: #0c0b15;
+  margin-left: 5px;
+}
+
+th {
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.row {
+  text-align: center;
+  vertical-align: baseline;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu,
+.menu-s {
+  font-family: Lilita One;
+  font-weight: 300;
+  color: #0c0b15;
+}
+
+.menu {
+  font-size: 40px;
+}
+
+.menu-s {
+  font-size: 15px;
+  width: 150px;
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: azure;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.navbar {
+  display: block;
+  text-decoration: none;
+  border-color: #0c0b15;
+  background-color: #cbd4de;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #0c0b15;
+  border-radius: 5px;
+  font-size: 40px;
+  font-family: Lilita One;
+  font-weight: 300;
+  color: #0c0b15;
+}
+
+/* Change the link color on hover */
+.navbar:hover {
+  background-color: #555;
+  color: azure;
 }

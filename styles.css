@@ -1,4 +1,4 @@
-.col-sm-5,
+.col-sm-4,
 .col-sm-3,
 .col-sm-1 {
   background-color: #cbd4de;
@@ -6,6 +6,20 @@
   border-width: 5px;
   border-color: #0c0b15;
   border-radius: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+.col-sm-4 {
+  width: 40%;
+}
+
+.col-sm-3 {
+  width: 25%;
+}
+
+.col-sm-1 {
+  width: 10%;
 }
 
 #main {
@@ -28,6 +42,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: #cbd4de;
 }
 
 div.row {
@@ -36,6 +51,7 @@ div.row {
   height: 60px;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .menu,
@@ -43,6 +59,7 @@ div.row {
   font-family: Lilita One;
   font-weight: 300;
   color: #0c0b15;
+  background-color: #cbd4de;
 }
 
 .menu {
@@ -50,13 +67,15 @@ div.row {
 }
 
 .menu-s {
-  font-size: 15px;
-  width: 150px;
-  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 40px;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
+  background-color: #cbd4de;
 }
 
 a:hover {
@@ -67,9 +86,13 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 250px;
-  background-color: #f1f1f1;
+  width: max-content;
   text-align: center;
+}
+
+#navbar {
+  margin-top: 20px;
+  margin-left: 13px;
 }
 
 .navbar {
@@ -89,6 +112,9 @@ ul {
 
 /* Change the link color on hover */
 .navbar:hover {
-  background-color: #555;
   color: azure;
+}
+
+#img-logo {
+  margin-bottom: 25px;
 }
